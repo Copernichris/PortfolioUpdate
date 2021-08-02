@@ -1,0 +1,82 @@
+/* colors
+#0e0b16
+#a239ca
+#4717f6
+#e7dfdd */
+
+*{
+    color: #e7dfdd;
+}
+body {
+    padding: 10px;
+    background-color: #0e0b16;
+    text-align: center; /*sets defaults for content to be centered*/
+}
+
+header {
+    background-color: #0e0b16;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e0b16;
+}
+  
+nav li {
+    float: left; /*aligns nav to left*/
+}
+  
+nav li a {
+    display: block;
+    color: #e7dfdd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #4717f6; /*hover color*/
+}
+
+figure img{
+    width: 40%; /*static img width scales to window*/
+}
+
+.headshot { /*creates a circular image and gives it a pinkish border*/
+    border-radius: 50%;
+    border-color: #a239ca;
+    border-style: solid;
+    border-width: 2%;
+}
+
+.project-card-main{
+    margin: auto;
+    width: 1100px;
+    max-width: 80%;
+  }
+
+.projects{ /*sets up flex box for the projects cards*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects a{
+    display: flex;
+    width: 700px;
+    min-width: 35%; /*when screen is large, card is just large enough to now allow a 3rd card on the row*/
+    max-width: 50%; /*when screen is small, cards consume exactly half of screen*/
+    margin: auto; /*centerss the cards*/
+    background-color: #a239ca;
+    }
+
+
+
+.project-card{
+    justify-content: center;
+    width: 100%; /*flex is technically being applied to the anchor tag, so we just want the images to fill the entirety of the ancor*/
+   
+}
+
