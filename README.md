@@ -17,4 +17,4 @@ the contact section features a link to my github, a mailto for my email adress, 
 ## screenshot
 ![screenshot](https://github.com/Copernichris/homework-2/blob/main/screenshot.jpg)
 ## link
-https://copernichris.github.io/homework-2/
+https://copernichris.github.io/PortfolioUpdate/
